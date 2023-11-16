@@ -110,3 +110,40 @@ html {
   transition: 2s;
 
 }
+
+/* Default styles */
+.moving-div {
+  
+ 
+  position: relative;
+  left: 0;
+  animation: move 7s linear infinite;
+}
+
+/* Keyframes animation */
+@keyframes move {
+  0%, 100% {
+    left: 0; /* Starting position */
+  }
+  50% {
+    left: 300px; /* Move to the right */
+  }
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .moving-div {
+    animation: move-small-screen 7s linear infinite;
+  }
+
+  @keyframes move-small-screen {
+    0%, 100% {
+      left: 0; /* Starting position */
+    }
+    50% {
+      left: 160px; /* Move to the left */
+    }
+  }
+}
+
+
