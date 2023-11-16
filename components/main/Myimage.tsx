@@ -11,21 +11,21 @@ function Myimage() {
       <div className = "image-slider mt-[30px] md:ml-[400px] z-[1]  ">
 
 <span style = {{transform : `rotateY(calc(1*45deg)) translateZ(350px)`}} >
-    <img src="/5.png" className = "animate-pulse"  alt = "myimage"/>
+    <img src="/5t.png" className = "animate-pulse"  alt = "myimage"/>
 </span>
 
 <span style = {{transform : `rotateY(calc(2*45deg)) translateZ(350px)`}} >
-    <Image src="/5.png" width= {100}   className = "animate-pulse"   height= {0}alt = "myimage"/>
+    <Image src="/6t.png" width= {100}   className = "animate-pulse"   height= {0}alt = "myimage"/>
 </span>
 
 <span style = {{transform : `rotateY(calc(3*45deg)) translateZ(350px)`}} >
-<Image src="/5.png" width= {100}  className = "animate-pulse"    height= {0}alt = "myimage"/>
+<Image src="/10t.png" width= {100}  className = "animate-pulse"    height= {0}alt = "myimage"/>
 </span>
 <span style = {{transform : `rotateY(calc(4*45deg)) translateZ(350px)`}} >
-    <img src="/5.png"  className = "animate-pulse"   alt = "myimage"/>
+    <img src="/12t.png"  className = "animate-pulse"   alt = "myimage"/>
 </span>
 <span style = {{transform : `rotateY(calc(5*45deg)) translateZ(350px)`}} >
-    <img src="/5.png"  className = "animate-pulse"   alt = "myimage"/>
+    <img src="/13t.png"  className = "animate-pulse"   alt = "myimage"/>
 </span>
 
 </div>
