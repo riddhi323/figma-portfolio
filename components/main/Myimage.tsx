@@ -6,14 +6,14 @@ function Myimage() {
         return Math.floor(Math.random() * 360); // Generate a random rotation between 0 and 360 degrees
       };
   return (
-    <div className = "image-slider mt-[30px] md:ml-[200px] ">
+    <div className = "image-slider mt-[30px]   ">
 
         <span style = {{transform : `rotateY(calc(1*45deg)) translateZ(350px)`}} >
-            <img src="/5.png" alt = "myimage"/>
+            <img src="/5.png"  alt = "myimage"/>
         </span>
 
         <span style = {{transform : `rotateY(calc(2*45deg)) translateZ(350px)`}} >
-            <img src="/5.png" alt = "myimage"/>
+            <img src="/5.png" className="w-[60px] h-[60px]" alt = "myimage"/>
         </span>
 
         <span style = {{transform : `rotateY(calc(3*45deg)) translateZ(350px)`}} >
