@@ -69,3 +69,44 @@
 html {
   scroll-behavior: smooth;
 }
+
+.image-slider{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  transform-style: preserve-3d;
+  animation: moving 14s linear infinite;
+}
+
+@keyframes moving {
+   0%{
+    transform: perspective(1000px) rotateY(0deg);
+   }
+
+   100%{
+    transform: perspective(1000px) rotateY(360deg);
+   }
+}
+
+.image-slider span {
+  position : absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transition-property: rotateY(45deg) translateZ(350px) ;
+}
+
+.image-slider span img{
+  position:absolute;
+  top: 0;
+  left: 100px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: 2s;
+
+}
