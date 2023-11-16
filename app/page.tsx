@@ -29,7 +29,7 @@ export default function Home() {
                 deleteSpeed: 20,
               }}
             />
-            <span className = "text-purple-500 text-3xl">I'm a </span>
+            <span className = "text-purple-500 text-3xl">{"I am"}</span>
             <Typewriter
               
               options={{
