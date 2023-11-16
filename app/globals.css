@@ -112,38 +112,41 @@ html {
 }
 
 /* Default styles */
+/* Default styles */
 .moving-div {
-  
- 
+  width: 50px;
+  height: 50px;
+  background-color: blue;
   position: relative;
-  left: 0;
-  animation: move 7s linear infinite;
+  top: 0;
+  animation: move 4s linear infinite;
 }
 
 /* Keyframes animation */
 @keyframes move {
   0%, 100% {
-    left: 0; /* Starting position */
+    top: 0; /* Starting position */
   }
   50% {
-    left: 300px; /* Move to the right */
+    top: 100px; /* Move down */
   }
 }
 
 /* Media query for smaller screens */
 @media (max-width: 768px) {
   .moving-div {
-    animation: move-small-screen 7s linear infinite;
+    animation: move-small-screen 4s linear infinite;
   }
 
   @keyframes move-small-screen {
     0%, 100% {
-      left: 0; /* Starting position */
+      top: 0; /* Starting position */
     }
     50% {
-      left: 160px; /* Move to the left */
+      top: -100px; /* Move up */
     }
   }
 }
+
 
 

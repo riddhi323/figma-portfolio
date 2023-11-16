@@ -15,8 +15,8 @@ export default function Home() {
 
         
 
-        <div className="  moving-div  md:hidden w-full relative flex flex-col h-[500px] text-white text-center">
-          <div className="   p-2 max-w-4xl absolute top-[-10px] rounded-lg left-[70px] w-[230px] mx-auto  h-[400px]  ">
+        <div className="    md:hidden w-full relative flex flex-col h-[500px] text-white text-center">
+          <div className="   p-2 max-w-4xl absolute top-[-10px] rounded-lg left-[10px] w-[230px] mx-auto  h-[400px]  ">
             <span className = "text-emerald-500 text-3xl font-mono">This is</span>
             <Typewriter
               options={{
