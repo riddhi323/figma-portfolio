@@ -4,7 +4,7 @@ import Myimage from "@/components/main/Myimage";
 import Skills from "@/components/main/Skills";
 import Image from "next/image";
 import Typewriter from "typewriter-effect";
-// used compressed wav.
+// used compressed data
 export default function Home() {
   return (
     <main className="h-full w-full">
