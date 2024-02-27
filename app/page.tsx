@@ -98,7 +98,7 @@ export default function Home() {
         <div className = " h-[680px] ">
         <div className = "relative flex flex-col h-full w-full text-white">
 
-        <video autoPlay muted loop className=' absolute opacity-60   top-[220px] left-0 z-[1] w-full object-fit h-full'>
+        <video autoPlay muted loop className=' absolute opacity-90   top-[220px] left-0 z-[1] w-full object-fit h-full'>
             <source src='/1.mp4' type='video/mp4'></source>
         </video>
 
